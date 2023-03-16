@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SjakkTrener</title>
+    <link rel="stylesheet" type="text/css" href="frontend.css">
+    <link rel="icon" href="--">
+    <script src="js/index.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <meta name="description" content="--">
+    <meta name="keywords" content="--">
+    <meta name="author" content="--">
+</head>
+<body>
+    <header class="header">
+        <p>
+            <img src="header.jpg" alt="headerpic" width="100%" height="250">
+            
+        </p>
+    </header>
+
+
+
+    <ul>
+        <li class= "nav"></li>
+        <li><a class="active" href="index.html">Hjem</a></li>
+        <li><a href="applikasjon.html">Applikasjon</a></li>
+        <li><a href="about.html">Om</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="hjelp.html">Hjelp</a></li>
+    </ul>
+
+    <form action="connect.php" method="POST">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">email:</label>
+          <input type="text" id="email" name="email" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          
+          <button type="submit">Login</button>
+    </form>
+
+    <div id="video">
+        <iframe width="35%" height="420"  src="https://www.youtube.com/embed/tF6ow5rQnio" title="Aimchess: suck less at chess" align-content: center; allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        <p>Copyright&copy;2022 the project began 12.november.2022</p>
+        <p>Support:<a href="mailto:Sjakk-Trener@hotmail.com">Sjakk-Trener@hotmail.com</a></p>
+    </footer>
+</body>
+</html>
