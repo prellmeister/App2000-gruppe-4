@@ -23,7 +23,6 @@ insertImage()
 
 
 //Coloring
-
 function coloring() {
     const color = document.querySelectorAll('.box')
 
@@ -92,14 +91,6 @@ function reddish() {
 }
 
 
-
-
-
-
-
-
-
-
 tog = 1
 
 document.querySelectorAll('.box').forEach(item => {
@@ -148,7 +139,6 @@ document.querySelectorAll('.box').forEach(item => {
         function whosTurn(toggle) {
 
             // PAWN
-
             if (item.innerText == `${toggle}pawn`) {
                 item.style.backgroundColor = 'pink'
 
@@ -186,7 +176,6 @@ document.querySelectorAll('.box').forEach(item => {
             }
 
             // KING
-
             if (item.innerText == `${toggle}king`) {
 
 
@@ -230,7 +219,6 @@ document.querySelectorAll('.box').forEach(item => {
 
 
             // ROOK
-
             if (item.innerText == `${toggle}rook`) {
 
                 for (let i = 1; i < 9; i++) {
@@ -330,17 +318,12 @@ document.querySelectorAll('.box').forEach(item => {
                         break
                     }
                 }
-
-
-
                 item.style.backgroundColor = 'pink'
 
             }
 
 
-
             // QUEEN
-
             if (item.innerText == `${toggle}queen`) {
 
 
@@ -433,15 +416,11 @@ document.querySelectorAll('.box').forEach(item => {
                         break
                     }
                 }
-
-
-
                 item.style.backgroundColor = 'pink'
 
             }
 
             // KNIGHT
-
             if (item.innerText == `${toggle}knight`) {
 
 
@@ -489,10 +468,7 @@ document.querySelectorAll('.box').forEach(item => {
 
         reddish()
 
-
-
         // winning()
-
         numOfKings = 0
 
 
@@ -524,9 +500,6 @@ document.querySelectorAll('.box').forEach(item => {
 })
 
 
-
-
-
 // Moving the element
 document.querySelectorAll('.box').forEach(hathiTest => {
 
@@ -556,10 +529,6 @@ document.querySelectorAll('.box').forEach(hathiTest => {
     })
 
 })
-
-
-
-
 
 
 // Prvents from selecting multiple elements

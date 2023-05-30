@@ -1,0 +1,43 @@
+*{
+    background-color: lightsteelblue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #555;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  header  {
+    background-color: #C4A484;
+    }
+
+    .headerpic{
+    width: 1925px;
+    }
+
+    .video{
+        margin: auto;
+        align-content: center;
+    }
+ 

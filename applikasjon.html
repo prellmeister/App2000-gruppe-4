@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,6 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" href="style.css">
+<script src="js/db.js"></script>
+<script src="js/åpning.js"></script>
 
 <title>Chess</title>
 </head>
@@ -28,7 +28,6 @@
     <li><a href="kontakt.html">Kontakt</a></li>
     <li><a href="hjelp.html">Hjelp</a></li>
 </ul>
-
 
 
 <ul>
@@ -115,13 +114,25 @@
         <li class="box" id="b108">Wrook</li>
     </div>
 
+    <div class="åpninger">
+        <button id ="clickShowPositionBtn()">London system</button>
+        <button id ="clickShowPositionBtn2()">Spanish opening</button>
+        <button id ="clickShowPositionBtn3()">Sicillian defence</button>
+    </div>
+
+    <script>
+        function buttonClick() {
+          document.getElementByid("clickShowPositionBtn");
+          openingsButton.addEventListener('click', handleOpeningsButtonClick);
+        }
+    </script>
+
+
 </ul>
 <script src="Chess.js"></script>
 </body>
 
 <script>
-
-
 
 </script>
 
